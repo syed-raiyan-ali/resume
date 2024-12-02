@@ -1,0 +1,9 @@
+.link{ 
+    text-decoration: none; /* For the NavLink wrapper itself */
+    color: inherit;
+    outline: none;
+}
+
+.link:focus {
+    outline: none; /* Prevent the focus outline */
+}

@@ -1,0 +1,56 @@
+.outer{
+    background-color: transparent;
+    height: 100vh;
+    /* border: 1px blue solid; */
+    /* background-color: yellowgreen; */
+    position: relative;
+    /* display: flex;
+    flex-direction: row;*/
+}
+
+.inner{
+    /* border: 1px blue solid; */
+    border-right: 0.5vw black solid;
+    /* background-color: rgb(236, 177, 118); */
+    width: 35vw;
+    padding-top: 50vh;
+}
+
+.h3{
+    /* border: 1px red solid; */
+    font-size: clamp(10px, 3.5vw, 1000px);
+    padding-left: clamp(10px, 4vw, 1000px);
+}
+
+p{
+    /* border: 1px red solid; */
+    font-size: clamp(10px, 1.5vw, 1000px);
+    padding-left: clamp(10px, 4vw, 1000px);
+}
+
+.font{
+    /* border: 1px blue solid; */
+    position: absolute;
+    width: 52.4vw;
+    height: 24.75vh !important;
+    padding-left: 18vw;
+    font-size: clamp(10px, 10.5vw, 1000px);
+    line-height: clamp(10px, 100%, 10000px);
+    overflow: hidden;
+}
+
+.font:hover{
+    padding-left: 15vw;
+}
+
+.contact{
+    top: 25vh;
+}
+
+.overview{
+    top: 50vh;
+}
+
+.certificate{
+    top: 75vh;
+}

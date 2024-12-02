@@ -1,0 +1,47 @@
+.dark-background {
+    background-color: rgb(80, 60, 60); /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+  
+.light-background {
+    background-color: rgb(250, 247, 240); /* Light mode background color */
+    color: #000; /* Light mode text color */
+}
+
+.light-background .resume:hover,
+.light-background .overview:hover,
+.light-background .certificate:hover,
+.light-background .contact:hover {
+  cursor: pointer;
+  background-color: rgb(166, 123, 91);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+  transition: all 0.3s ease;
+}
+
+.dark-background .resume:hover,
+.dark-background .overview:hover,
+.dark-background .certificate:hover,
+.dark-background .contact:hover {
+  cursor: pointer;
+  background-color: rgb(168, 124, 124);
+  color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+  transition: all 0.3s ease;
+}
+
+.light-background .inner{
+  background-color: rgb(166, 123, 91);
+}
+
+.dark-background .inner{
+  background-color: rgb(168, 124, 124);
+}
+
+.dark-mode {
+    background-color: rgb(168, 124, 124);
+}
+
+.light-mode {
+    background-color:rgb(166, 123, 91);
+}

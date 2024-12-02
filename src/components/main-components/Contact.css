@@ -1,0 +1,6 @@
+.c_outer{
+    height: 100vh;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+}

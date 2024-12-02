@@ -1,0 +1,11 @@
+.outer{
+    background-color: transparent;
+    height: 100vh;
+    /* border: 1px red solid; */
+    /* background-color: yellowgreen; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 3;
+}

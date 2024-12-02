@@ -1,0 +1,36 @@
+.box6{
+    /* border: 1px red solid; */
+    font-size: clamp(10px, 1.5vw, 50px);
+    height: 20vh;
+    width: 37vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .box6 div{
+    border: red 1px solid;
+} */
+
+.fa-brands{
+    background-color: transparent;
+    font-size: clamp(10px, 2vw, 50px) !important;
+}
+
+/* .fa-github{
+    margin-left: 3%;
+} */
+
+.fa-instagram{
+    color: darkviolet;
+}
+
+a{
+    padding: 0 10px;
+    color: black;
+}
+
+.social{
+    align-content: center;
+    padding-left: 1vw;
+    /* opacity: 0; */
+}

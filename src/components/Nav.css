@@ -1,0 +1,76 @@
+.box{
+    margin: .5%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    /* border: 1px red solid; */
+    position: relative;
+    margin-top: 15px;
+    height: 10vh;
+    width: 99vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.nav1{
+    /* border: 1px blue solid; */
+    position: relative;
+    /* margin-top: 15px; */
+    height: 10vh;
+    width: 99vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-end;
+}
+
+.boxx{
+    /* border: 1px red solid !important; */
+    border: none;
+    font-size: clamp(8px, 1.2vw, 40px);
+    background-color:  transparent;
+    align-content: center;
+}
+
+.box11{
+    width: 23vw;
+    /* border: 1px red solid !important; */
+    height: 100%;
+    padding-left: 1vw;
+    font-size: clamp(10px, 2vw, 70px) !important;
+    font-weight: 500;
+}
+
+/* .box12{
+    margin-left: 42vw;
+} */
+
+.box12 i{
+    background-color: transparent;
+}
+/* .box13{
+    width: 9vw;
+} */
+
+/* .box14{
+    width: 9vw;
+} */
+
+/* .box15{
+    padding-right: 1vw;
+} */
+ 
+/* ---------------- HOVER */
+nav button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}

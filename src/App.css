@@ -1,0 +1,400 @@
+.outer{
+    background-color: transparent;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 3;
+}
+
+body{
+    user-select: none;  
+    background-color: transparent;
+    overflow: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer, Edge */
+    margin: 0px;
+}
+
+.body::-webkit-scrollbar { 
+    display: none; /* Chrome, Safari, Opera */
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    /* ------------------------------------------OVERVIEW-------------------------------------------- */
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-y: auto;   /* Allow vertical scrolling */
+        scrollbar-width: auto; /* Reset scrollbar for Firefox */
+        -ms-overflow-style: auto; /* Reset scrollbar for Internet Explorer, Edge */
+    }
+    
+    .outer {
+        flex-direction: column !important; /* Ensure elements are stacked vertically */
+        flex-wrap: nowrap !important; /* Prevent wrapping */
+        overflow-x: hidden; /* Prevent horizontal overflow in this container */
+    }
+
+    .box2{
+        display: none !important;
+    }
+
+    .box1, .box3, .box4, .box5, .box6{
+        width: 99vw !important;
+    }
+    /* -------------------------------------------------- */
+    body nav{
+        flex-direction: column !important;
+        height: 15vh !important;
+        width: 99vw;
+    }
+
+    .nav1{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        column-count: 2;
+        justify-content: space-around !important;
+        width: 99vw !important;
+    }
+
+    .outer .nav1 .box12, .box13, .box14, .box15, .box16 {
+        height: 4vh;
+        font-size: 4vw !important;
+        width: 30vw;
+        padding: 0% !important;
+    }
+    .outer .nav1 .box12{
+        width: 12vw;
+    }
+
+    #root .outer .box11 {
+        height: 7vh;
+        font-size: 8vw !important;
+        width: 85vw;
+    }
+    /* --------------------------------------------------- */
+    
+    .box1 #list-cont{
+        font-size: 5vw !important;
+    }
+
+    .box1 .inner-box1 label{
+        font-size: 6vw !important;
+    }
+    /* ----------------------------------------- */
+
+    .box3 .inner-box3 label{
+        font-size: 6vw !important;
+    }
+
+    .box3 .inner-box3 span{
+        font-size: 4vw !important;
+    }
+    .box3 #proj-list-cont{
+        font-size: 5vw !important;
+    }
+    /* ------------------------------------------- */
+    .box4 .inner-box4 label{
+        font-size: 6vw !important;
+    }
+    
+    .box4 .inner-box4 p{
+        font-size: 5vw !important;
+    }
+    /* ------------------------------------------- */
+    .box5 .inner-box5 label{
+        font-size: 6vw !important;
+    }
+    
+    .box5 .inner-box5 p{
+        font-size: 5vw !important;
+    }
+    /* ------------------------------------------ */
+
+    .box6 div{
+        font-size: 5.5vw !important;
+    }
+    /* -------------------------------HOMEPAGE--------------------------------------- */
+
+    /* .outer div{
+        border: 1px red solid !important;
+    } */
+
+    .outer .inner{
+        height: 15vh;
+        width: 100vw;
+        padding-top: 0%;
+    }
+
+    .outer .inner .h3{
+        font-size: 6vw !important;
+        height: fit-content;
+    }
+
+    .outer .inner p{
+        font-size: 4vw !important;
+    }
+
+    .resume, .contact, .overview, .certificate{
+        height: 21.25vh !important;
+        width: 99vw !important;
+    }
+
+    .resume{
+        top: 15vh !important;
+        display: grid;
+        place-items: center;
+        justify-content: start;
+    }
+    .contact{
+        top: 36.25vh !important;
+        display: grid;
+        place-items: center;
+        justify-content: start;
+    }
+    .overview{
+        top: 57.5vh !important;
+        display: grid;
+        place-items: center;
+        justify-content: start;
+    }
+    .certificate{
+        top: 78.75vh !important;
+        display: grid;
+        place-items: center;
+        justify-content: start;
+    }
+    /* ---------------------------------------RESUME------------------------------------ */
+
+    /* .iframe{
+        height: 60vh !important;
+    } */
+
+    /* ---------------------------------------Contact----------------------------------- */
+
+    .c_outer .nav1 .box12, .box13, .box14, .box15, .box16 {
+        height: 4vh;
+        font-size: 4vw !important;
+        width: 30vw;
+        padding: 0% !important;
+    }
+    .c_outer .nav1 .box12{
+        width: 12vw;
+    }
+
+    #root .c_outer .box11 {
+        height: 7vh;
+        font-size: 8vw !important;
+        width: 85vw;
+    }
+
+    .div1{
+        top: 16vh !important;
+        height: 83vh !important;
+        width: 99vw !important;
+    }
+
+    .div2{
+        display: none ;
+    }
+
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media (min-width: 426px) and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-y: auto;   /* Allow vertical scrolling */
+        scrollbar-width: auto; /* Reset scrollbar for Firefox */
+        -ms-overflow-style: auto; /* Reset scrollbar for Internet Explorer, Edge */
+    }
+    
+    .outer {
+        flex-direction: column !important; /* Ensure elements are stacked vertically */
+        flex-wrap: nowrap !important; /* Prevent wrapping */
+        overflow-x: hidden; /* Prevent horizontal overflow in this container */
+    }
+
+    .box2{
+        display: none !important;
+    }
+
+    .box1, .box3, .box4{
+        width: 99vw !important;
+    }
+
+    body nav{
+        flex-direction: column !important;
+        height: 15vh !important;
+        width: 99vw;
+    }
+
+    .nav1{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        column-count: 2;
+        justify-content: space-around !important;
+        width: 99vw !important;
+    }
+
+    .outer .nav1 .box12, .box13, .box14, .box15, .box16 {
+        height: 4vh;
+        font-size: clamp(15px, 4vw, 30px) !important;
+        width: 30vw;
+        padding: 0% !important;
+    }
+    .outer .nav1 .box12{
+        width: 12vw;
+    }
+
+    #root .outer .box11 {
+        /* border: 1px red solid; */
+        height: 7vh;
+        font-size: clamp(35px, 8vw, 55px) !important;
+        width: 95vw;
+        text-align: center  ;
+    }
+    
+    /* -------------------------------------------------OVERVIEW------------------------------ */
+
+    .box1 #list-cont{
+        font-size: clamp(20px, 3vw, 50px) !important;
+    }
+
+    .box1 .inner-box1 label{
+        font-size: clamp(25px, 4vw, 60px) !important;
+    }
+    
+    /* ----------------------------------------- */
+
+    .box3 .inner-box3 label{
+        font-size: clamp(25px, 4vw, 60px) !important;
+    }
+
+    .box3 .inner-box3 span{
+        font-size: clamp(15px, 2.5vw, 50px) !important;
+    }
+    .box3 #proj-list-cont{
+        font-size: clamp(20px, 3vw, 50px) !important;
+    }
+
+    /* -------------------------------------------- */
+
+    .box4 .inner-box4 label{
+        font-size: clamp(25px, 4vw, 60px) !important;
+    }
+    
+    .box4 .inner-box4 p{
+        font-size: clamp(20px, 3vw, 50px) !important;
+    }
+
+    /* ------------------------------------------- */
+    .box5{
+        width: 61vw !important;
+    }
+    .box5 .inner-box5 label{
+        font-size: clamp(25px, 4vw, 60px) !important;
+    }
+    
+    .box5 .inner-box5 p{
+        font-size: clamp(20px, 3vw, 50px) !important;
+    }
+
+    /* ----------------------------------------------- */
+
+    .box6{
+        position: absolute;
+        height: calc(20vh - 1.5%) !important;
+        bottom: 0;
+        right: 0;
+    }
+
+    .box6 div{
+        font-size: clamp(17px, 3vw, 50px) !important;
+    }
+
+    /* ---------------------------------------------------HOMEPAGE--------------------------------------- */
+
+    /* .outer div{
+        border: 1px red solid !important;
+    } */
+
+    .outer .inner{
+        width: 35vw !important;
+        height: 100vh !important;
+        padding-top: 20vh;
+    }
+
+    .outer .inner .h3{
+        font-size: clamp(30px, 6vw, 100px) !important;
+        height: fit-content;
+    }
+
+    .outer .inner p{
+        font-size: clamp(20px, 4vw, 60px) !important;
+    }
+
+    .inner2{
+        /* border: 2px blue solid !important; */
+        position: absolute;
+        /* height: 0px;
+        width: 0px; */
+    }
+
+    .resume, .contact, .overview, .certificate{
+        height: 25vh !important;
+        width: 85vw !important;
+        left: 35vw;
+        display: grid;
+        place-items: center;
+    }
+
+    .resume{
+        top: 0 !important;
+        justify-content: start;
+    }
+    .contact{
+        top: 25vh !important;
+        justify-content: start;
+    }
+    .overview{
+        top: 50vh !important;
+        justify-content: start;
+    }
+    .certificate{
+        top: 75vh !important;
+        justify-content: start;
+    }
+    /* ----------------------------------CONTACT------------------------------------- */
+
+    .c_outer .nav1 .box12, .box13, .box14, .box15, .box16 {
+        height: 4vh;
+        font-size: clamp(15px, 4vw, 30px) !important;
+        width: 30vw;
+        padding: 0% !important;
+    }
+
+    .c_outer .nav1 .box12{
+        width: 12vw;
+    }
+
+    #root .c_outer .box11 {
+        /* border: 1px red solid; */
+        height: 7vh;
+        font-size: clamp(35px, 8vw, 55px) !important;
+        width: 95vw;
+        text-align: center  ;
+    }
+
+    .div2{
+        display: none ;
+    }
+
+    .div1{
+        top: 16vh !important;
+        height: 83vh !important;
+        width: 99vw !important;
+    }
+}

@@ -18,8 +18,10 @@
 }
 
 .label2{
+    width: 100%;
     position: absolute;
-    font-size: 150%;
+    font-size: 18px;
+    /* font-size: clamp(20px,5vw,25px); */
     text-align: center;
     top: 12%;
 }

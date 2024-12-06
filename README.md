@@ -8,6 +8,8 @@ Tools and Technologies Used:
 • JavaScript: For adding interactivity and dynamic content.
 • React.js: To build a modular and reusable component-based architecture.
 • Hosting Platform: Vercel, for seamless deployment and hosting.
+• Fake API Integration: Simulates data fetching for dynamic content and portfolio showcases.
+
 
 Features of the Website:
 

@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebc82f5f.css",
-    "main.js": "/static/js/main.f884f5e1.js",
-    "static/media/react-nsdc.pdf": "/static/media/react-nsdc.37bd09b804ee48e3e32d.pdf",
+    "main.css": "/static/css/main.e3e4cf58.css",
+    "main.js": "/static/js/main.c3377253.js",
+    "static/media/certificates.zip": "/static/media/certificates.017552f13fcdd00bd7de.zip",
+    "static/media/cv1.jpg": "/static/media/cv1.49b570f0a1df46798ae0.jpg",
+    "static/media/app-certi.jpg": "/static/media/app-certi.a33d0bddda2f81a8589f.jpg",
+    "static/media/react-certi.jpg": "/static/media/react-certi.1a1c1e31397283e81072.jpg",
+    "static/media/cv2.jpg": "/static/media/cv2.40c94bd864694b0a589d.jpg",
     "static/media/laptop3.jpg": "/static/media/laptop3.8d466bffc64e71c9b74b.jpg",
-    "static/media/cv.pdf": "/static/media/cv.733b6222959b37ace47c.pdf",
+    "static/media/cv.pdf": "/static/media/cv.0fba7d4e52f77e5e4365.pdf",
     "static/media/Pfp.png": "/static/media/Pfp.5fc0c13519f77fb5c9bb.png",
     "index.html": "/index.html",
-    "main.ebc82f5f.css.map": "/static/css/main.ebc82f5f.css.map",
-    "main.f884f5e1.js.map": "/static/js/main.f884f5e1.js.map"
+    "main.e3e4cf58.css.map": "/static/css/main.e3e4cf58.css.map",
+    "main.c3377253.js.map": "/static/js/main.c3377253.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebc82f5f.css",
-    "static/js/main.f884f5e1.js"
+    "static/css/main.e3e4cf58.css",
+    "static/js/main.c3377253.js"
   ]
 }

@@ -1,13 +1,30 @@
 import React from 'react';
 import './Ccertificate.css';
-// import { useTheme } from './ThemeProvider'; // Import the custom hook
 
-import certificate1 from '../assets/react-nsdc.pdf'; // Include the file extension
+import certificate1 from '../assets/app-certi.jpg';
+import certificate2 from '../assets/react-certi.jpg';
+
+import zip from '../assets/certificates.zip';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export const Ccertificate = () => {
-  // const { isDarkMode } = useTheme(); // Access the isDarkMode value from the context
 
   return (
-    <iframe src={`${certificate1}#zoom=70`} loading="eager" className='certificate1' title='react certificate'></iframe>
+    <>
+      <div className='c-pic'>
+        <img src={certificate1} alt=" android app development certificate" className='certi1'/>
+        <img src={certificate2} alt="raect certificate" className='certi2'/>
+      
+        <div className="btns">
+          <button className='c-btn'>
+            <a href={zip} download='certificates.zip'>
+              <FontAwesomeIcon icon={faDownload}/>Download 
+            </a>
+          </button>
+        </div>
+      </div>
+    </>
   );
 };

@@ -182,9 +182,33 @@ body{
     
     /* ---------------------------------------RESUME------------------------------------ */
 
-    /* .iframe{
-        height: 60vh !important;
-    } */
+    .r-pic img{
+        width: 75% !important;
+        height: 150%;
+    }
+
+    .cv-btn{
+        height: 3vh;
+    }
+
+    .cv-btn a{
+        height: 3vh;
+    }
+
+    /* ------------------------------------CERTIFICATE--------------------------------------- */
+
+    .c-pic img{
+        width: 75% !important;
+        height: 150%;
+    }
+
+    .c-btn{
+        height: 3vh;
+    }
+
+    .c-btn a{
+        height: 3vh;
+    }
 
     /* ---------------------------------------Contact----------------------------------- */
 
@@ -200,7 +224,9 @@ body{
 
     #root .c_outer .box11 {
         height: 7vh;
-        font-size: 8vw !important;
+        /* font-size: 8vw !important; */
+        font-size: clamp(20px, 8vw, 30px) !important;
+        text-align: center !important;
         width: 85vw;
     }
 
@@ -408,6 +434,24 @@ body{
         top: 16vh !important;
         height: 83vh !important;
         width: 99vw !important;
+    }
+
+    /* --------------------------------------RESUME-------------------------------------------------- */
+
+    .r-pic img{
+        width: 75% !important;
+        height: 150%;
+    }
+
+    .cv-btn{
+        /* border: yellow 1px solid !important; */
+        height: clamp(5px, 8vw, 45px);
+    }
+
+    .cv-btn a{
+        /* border: 1px red solid; */
+        height: 50vh;
+        font-size: clamp(5px, 3vw, 30px);
     }
 }
 

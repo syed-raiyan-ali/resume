@@ -30,7 +30,7 @@ body{
     } */
 
     .outer .inner{
-        height: 15vh;
+        height: 18vh;
         width: 100vw;
         padding-top: 0%;
     }
@@ -46,33 +46,43 @@ body{
     }
 
     .resume, .contact, .overview, .certificate{
-        height: 21.25vh !important;
+        height: 25vh !important;
         width: 99vw !important;
     }
 
     .resume{
-        top: 15vh !important;
+        top: 18vh !important;
         display: grid;
         place-items: center;
         justify-content: start;
     }
     .contact{
-        top: 36.25vh !important;
+        top: 43vh !important;
         display: grid;
         place-items: center;
         justify-content: start;
     }
     .overview{
-        top: 57.5vh !important;
+        top: 68vh !important;
         display: grid;
         place-items: center;
         justify-content: start;
     }
     .certificate{
-        top: 78.75vh !important;
+        top: 93vh !important;
         display: grid;
         place-items: center;
         justify-content: start;
+    }
+
+    .faq-button{
+        top: 5vh !important;    
+        left: 74vw !important;
+        width: 15vw !important;   
+    }
+
+    .close-btn {
+        width: 15vw !important;   
     }
 
     /* ------------------------------------------OVERVIEW-------------------------------------------- */
@@ -241,6 +251,12 @@ body{
     }
 
 }
+
+@media (max-width: 350px) {
+    .faq-button{
+        width: 18vw !important;
+    }
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @media (min-width: 426px) and (max-width: 768px) {
 
@@ -296,6 +312,15 @@ body{
         font-size: clamp(25px, 8vw, 35px) !important;
         width: 95vw;
         text-align: center;
+    }
+
+    .inner{
+        padding-top: 15vh !important;
+    }
+
+    .faq-button{
+        width: 15vw !important;
+        top: 85vh !important;
     }
     
     /* -------------------------------------------------OVERVIEW------------------------------ */
@@ -472,4 +497,14 @@ body{
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+@media (min-width:426px) and (max-width:608px) {
+    .inner{
+        padding-top: 1vh !important;
+    }
+
+    .faq-button{
+        width: 15vw !important;
+        top: 90vh !important;
+    }
+}
 

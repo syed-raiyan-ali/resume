@@ -12,11 +12,20 @@
     /* background-color: rgb(236, 177, 118); */
     width: 35vw;
     padding-top: 50vh;
+    /* padding-top: 0vh !important; */
 }
 
-.h3{
+h1{
     /* border: 1px red solid; */
-    font-size: clamp(10px, 3.5vw, 1000px);
+    font-size: clamp(10px, 3.5vw, 1000px) !important;
+    padding-left: clamp(10px, 4vw, 1000px) !important;
+    font-weight: 400;
+    margin: none;
+}
+
+.h4{
+    /* border: 1px red solid; */
+    font-size: clamp(7px, 2.5vw, 1000px);
     padding-left: clamp(10px, 4vw, 1000px);
 }
 
@@ -41,14 +50,23 @@ p{
     padding-left: 15vw;
 }
 
+.resume{
+    /* top: 0vh; */
+    height: 25vh !important;
+    /* border: 1px red solid; */
+}
+
 .contact{
     top: 25vh;
+    /* border: 1px red solid; */
 }
 
 .overview{
     top: 50vh;
+    /* border: 1px red solid; */
 }
 
 .certificate{
     top: 75vh;
+    /* border: 1px red solid; */
 }

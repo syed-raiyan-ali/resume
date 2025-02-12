@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=Delius&family=Orbitron:wght@400..900&family=Quintessential&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Delius&family=Orbitron:wght@400..900&family=Quintessential&display=swap');
-
 .font{
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura", sans-serif !important;
   font-weight: 800;
-  font-style: normal;
+  font-style: normal !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Orbitron:wght@400..900&family=Quintessential&display=swap');
+
+
 .formal{
-  font-family: "Orbitron", sans-serif;
+  font-family: "Orbitron", sans-serif !important;
   font-optical-sizing: auto;
-  font-style: normal;
+  font-style: normal !important;
 }

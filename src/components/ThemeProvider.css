@@ -12,7 +12,8 @@
 .light-background .overview:hover,
 .light-background .certificate:hover,
 .light-background .contact:hover,
-.light-background .faq-button:hover {
+.light-background .faq-button:hover,
+.light-background .not-found-home-link:hover {
   cursor: pointer;
   background-color: rgb(166, 123, 91);
   color: #fff;

@@ -41,7 +41,7 @@ export const FAQs = () => {
   return (
     <div>
       {/* Button to open the FAQ popover */}
-      <button onClick={handleButtonClick} className="faq-button formal">
+      <button onClick={handleButtonClick} className={`faq-button formal ${isDarkMode ? "dark-background" : "light-background"}`}>
         FAQs
       </button>
 
